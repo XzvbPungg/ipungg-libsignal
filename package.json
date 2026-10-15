@@ -1,0 +1,38 @@
+{
+  "name": "ipungg-libsignal-node",
+  "version": "1.0.0",
+  "description": "Clean and secure Open Whisper Systems' libsignal protocol for Node.js - tailored for ipungg-baileys",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "ipung",
+    "ipungg",
+    "signal",
+    "libsignal",
+    "libsignal-node",
+    "whispersystems",
+    "crypto",
+    "curve25519",
+    "baileys",
+    "whatsapp"
+  ],
+  "author": "ipung",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "curve25519-js": "^0.0.4",
+    "protobufjs": "^6.8.8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src/*",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/**/*.test.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
